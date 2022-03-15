@@ -59,6 +59,17 @@ const Home = () => {
     }, [stories])
 
 
+    const handleDelete = () => {
+        const approved = window.confirm("Are you want to delete all the stories?");
+        if (approved) {
+            setRecentStories("");
+            setOldStories("");
+            window.location.reload();
+
+
+        }
+
+    }
 
 
 
@@ -73,7 +84,7 @@ const Home = () => {
                         <div className='blog-container'>
                             <img src={blog} alt="" /> <h5> Blog</h5>
                         </div>
-                        <button>Delete all</button>
+                        <button onClick={handleDelete}>Delete all</button>
 
                         <div className='long-stories'>
                             <div className='circular'>
