@@ -1,0 +1,27 @@
+.stories-container{
+    color: white;
+    padding: 10px;
+    font-size: 13px;
+    margin: 0 auto;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #242526;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.card-title p{
+    color: blue;
+}
+
+.images{
+    width:97px;
+    height:99px; 
+    border-radius: 5px;
+}
