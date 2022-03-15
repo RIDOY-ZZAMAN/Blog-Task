@@ -1,8 +1,12 @@
-#  Create a Folder for the project
+#  How To Run The Project
 
-## Available Scripts
+## Create a Folder 
+
+Create a Folder for the project in your PC. When Done then..
 
 In the project directory, you can run:
+
+## Available Scripts
 
 ### `npm install`
 To install all the required dependencies. After Installed all the packages..., you can run:
